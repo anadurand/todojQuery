@@ -45,7 +45,7 @@ const reRender = (todoList, completedList) => {
 
 const TodoItem = (data, update) => {
   const todo = $('<div class="todo"></div>');
-  const checkbox = $('<input type="checkbox">');
+  const checkbox = $('<input type="checkbox" class="check-box">');
   const span = $("<span>" + data.text + "</span>");
   const remove = $("<button>Remove</button>");
 

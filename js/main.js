@@ -14,7 +14,7 @@ const state = {
   todos: []
 };
 
-$(_ => {
+$( _ => {
   const root = $(".root");
   render(root);
 });
